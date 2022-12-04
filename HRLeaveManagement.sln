@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1821A016-38B7-43BF-A031-CA334DA795B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{9F945453-346E-42BF-917E-D97D703780D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{9F945453-346E-42BF-917E-D97D703780D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Application", "HRLeaveManagement.Application\HRLeaveManagement.Application.csproj", "{6B9A2C98-43FE-49B7-A6C4-55390F5E003D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9F945453-346E-42BF-917E-D97D703780D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F945453-346E-42BF-917E-D97D703780D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F945453-346E-42BF-917E-D97D703780D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9A2C98-43FE-49B7-A6C4-55390F5E003D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9A2C98-43FE-49B7-A6C4-55390F5E003D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9A2C98-43FE-49B7-A6C4-55390F5E003D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9A2C98-43FE-49B7-A6C4-55390F5E003D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{B182D491-C0AF-4885-98BB-88B959E3FDC7} = {A3C80C62-B5E8-4440-BEBF-0A721D526243}
 		{1821A016-38B7-43BF-A031-CA334DA795B5} = {A3C80C62-B5E8-4440-BEBF-0A721D526243}
 		{9F945453-346E-42BF-917E-D97D703780D1} = {AAE98C12-577F-460B-BF06-9118228D5C2C}
+		{6B9A2C98-43FE-49B7-A6C4-55390F5E003D} = {AAE98C12-577F-460B-BF06-9118228D5C2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CB91A74-BFEC-47F3-A6E5-EED56E693FA7}
